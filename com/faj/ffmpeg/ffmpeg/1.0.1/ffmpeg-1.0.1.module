@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.faj.ffmpeg",
+    "module": "ffmpeg",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ffmpeg-1.0.1.aar",
+          "url": "ffmpeg-1.0.1.aar",
+          "size": 22712481,
+          "sha512": "124d330a294c44321c769e37cfd894f9a715ded804fa9b6c364ed40e3c5eacd74c4821177d3e5dc73326697d23dd161cf93778f9f5f137e72f6c2dd4cbd291ef",
+          "sha256": "d070bfe61819904c69e4329605fbbbeafa39127fa4978ca50dbd2aa49f46f16f",
+          "sha1": "bdddb06dd0c2b66229763b2884871f813a01bb3b",
+          "md5": "ce65954bc4c2cdeb8648ebf084903a55"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ffmpeg-1.0.1.aar",
+          "url": "ffmpeg-1.0.1.aar",
+          "size": 22712481,
+          "sha512": "124d330a294c44321c769e37cfd894f9a715ded804fa9b6c364ed40e3c5eacd74c4821177d3e5dc73326697d23dd161cf93778f9f5f137e72f6c2dd4cbd291ef",
+          "sha256": "d070bfe61819904c69e4329605fbbbeafa39127fa4978ca50dbd2aa49f46f16f",
+          "sha1": "bdddb06dd0c2b66229763b2884871f813a01bb3b",
+          "md5": "ce65954bc4c2cdeb8648ebf084903a55"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ffmpeg-1.0.1-sources.jar",
+          "url": "ffmpeg-1.0.1-sources.jar",
+          "size": 13390,
+          "sha512": "d6e4b64490f161652dc5a76f3db70e5c0e39f6eb3b9c966685fa435b86d2df12b05de99fe70ab4b778bc6b1b49f2729cb0da3b4debe914ed6600f6bc8c0747b0",
+          "sha256": "d06d2ff326ae66dd41e8c3857de931e350f258cbe45581c2a340fc7915188872",
+          "sha1": "c3da92c5e823a3bf33037b55c2de95a577aa0763",
+          "md5": "d7d20e8d64a0611a71b12a6d58c86221"
+        }
+      ]
+    }
+  ]
+}

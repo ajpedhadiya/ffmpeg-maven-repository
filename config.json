@@ -4,5 +4,5 @@
     "com.softek.fffmpegtest",
     "com.pik.roxstar"
   ],
-  "blocked": ["com.pik.roxstar"]
+  "blocked": []
 }
