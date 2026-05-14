@@ -1,8 +1,7 @@
 {
   "version": 1,
   "allowed": [
-    "com.softek.fffmpegtest",
-    "com.pik.roxstar"
+    "com.softek.fffmpegtest"
   ],
   "blocked": ["com.pik.roxstar"]
 }
